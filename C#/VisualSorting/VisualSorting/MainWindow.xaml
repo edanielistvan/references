@@ -1,0 +1,63 @@
+﻿<Window x:Class="VisualSorting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualSorting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal">
+            <Label></Label>
+
+            <Button Content="Sort" Width="50px" Height="20px" Command="{Binding SortCommand}">
+            </Button>
+
+            <Label></Label>
+
+            <Button Content="Shuffle" Width="50px" Height="20px" Command="{Binding ShuffleCommand}">
+            </Button>
+
+            <Label></Label>
+
+            <Button Content="Stop" Width="50px" Height="20px" Command="{Binding StopCommand}">
+            </Button>
+
+            <Label></Label>
+
+            <ComboBox ItemsSource="{Binding Sorts}" SelectedIndex="{Binding SelectedSort}" Height="20px">
+            </ComboBox>
+
+            <Border Padding="20">
+
+            </Border>
+        </StackPanel>
+
+        <ItemsControl Name="GraphControl" ItemsSource="{Binding RectItems}" Grid.Row="1" Background="Black">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas Name="GraphCanvas" SizeChanged="Canvas_SizeChanged"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="ContentPresenter">
+                    <Setter Property="Canvas.Left" Value="{Binding X}"/>
+                    <Setter Property="Canvas.Bottom" Value="{Binding Y}"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Rectangle Width="{Binding Width}" Height="{Binding Height}" Fill="{Binding FillColor}" Stroke="{Binding FillColor}" />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</Window>

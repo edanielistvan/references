@@ -1,0 +1,10 @@
+D:\VS Projektek\Aknakereső\Aknakereső\bin\Debug\Aknakereső.exe.config
+D:\VS Projektek\Aknakereső\Aknakereső\bin\Debug\Aknakereső.exe
+D:\VS Projektek\Aknakereső\Aknakereső\bin\Debug\Aknakereső.pdb
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.csprojAssemblyReference.cache
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.Form1.resources
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.Properties.Resources.resources
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.csproj.GenerateResource.cache
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.csproj.CoreCompileInputs.cache
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.exe
+D:\VS Projektek\Aknakereső\Aknakereső\obj\Debug\Aknakereső.pdb

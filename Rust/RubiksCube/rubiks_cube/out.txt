@@ -1,0 +1,93 @@
+Start best move
+Depth: 3
+Returning: U 18
+Returning: D 20
+Returning: R 21
+Returning: L 22
+Returning: F 20
+Returning: B 20
+Returning: M 16
+Returning: E 18
+Returning: S 17
+Stop best move
+L: 22
+Start best move
+Depth: 3
+Returning: U 21
+Returning: D 24
+Returning: R 25
+Returning: L 21
+Returning: F 21
+Returning: B 23
+Returning: M 20
+Returning: E 18
+Returning: S 21
+Stop best move
+R: 25
+Start best move
+Depth: 3
+Returning: U 23
+Returning: D 19
+Returning: R 24
+Returning: L 20
+Returning: F 23
+Returning: B 24
+Returning: M 19
+Returning: E 22
+Returning: S 24
+Stop best move
+R: 24
+Start best move
+Depth: 3
+Returning: U 26
+Returning: D 23
+Returning: R 23
+Returning: L 23
+Returning: F 22
+Returning: B 29
+Returning: M 24
+Returning: E 19
+Returning: S 24
+Stop best move
+B: 29
+Start best move
+Depth: 3
+Returning: U 24
+Returning: D 25
+Returning: R 21
+Returning: L 22
+Returning: F 23
+Returning: B 29
+Returning: M 21
+Returning: E 20
+Returning: S 24
+Stop best move
+B: 29
+Start best move
+Depth: 3
+Returning: U 29
+Returning: D 23
+Returning: R 28
+Returning: L 24
+Returning: F 27
+Returning: B 29
+Returning: M 23
+Returning: E 22
+Returning: S 26
+Stop best move
+U: 29
+Start best move
+Depth: 3
+Returning: U 26
+Returning: D 25
+Returning: R 25
+Returning: L 23
+Returning: F 29
+Returning: B 27
+Returning: M 23
+Returning: E 23
+Returning: S 29
+Stop best move
+F: 29
+Start best move
+Depth: 3

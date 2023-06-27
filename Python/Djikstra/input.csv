@@ -1,0 +1,12 @@
+Budapest;Nyiregyhaza;231;Kecskemet;92;Szekesfehervar;65;Sopron;214
+Kecskemet;Budapest;92;Szolnok;60;Szeged;92
+Szekesfehervar;Budapest;65;Szombathely;161
+Szeged;Kecskemet;92;Baja;101
+Debrecen;Nyiregyhaza;50;Szolnok;130
+Nyiregyhaza;Budapest;231;Debrecen;50
+Szombathely;Szekesfehervar;161;Sopron;74;Nagykanizsa;102
+Sopron;Budapest;214;Szombathely;74
+Nagykanizsa;Szombathely;102;Pecs;139
+Szolnok;Kecskemet;60;Debrecen;130
+Baja;Szeged;101;Pecs;90
+Pecs;Nagykanizsa;139;Baja;90

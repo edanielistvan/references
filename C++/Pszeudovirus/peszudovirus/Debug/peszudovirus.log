@@ -1,0 +1,6 @@
+﻿  peszudovirus.cpp
+F:\VS Projektek\peszudovirus\peszudovirus\peszudovirus.cpp(135,70): warning C4244: 'return': conversion from 'double' to 'uint32_t', possible loss of data
+F:\VS Projektek\peszudovirus\peszudovirus\peszudovirus.cpp(162,19): warning C4244: 'initializing': conversion from 'double' to 'uint32_t', possible loss of data
+F:\VS Projektek\peszudovirus\peszudovirus\peszudovirus.cpp(165,23): warning C4018: '<=': signed/unsigned mismatch
+F:\VS Projektek\peszudovirus\peszudovirus\peszudovirus.cpp(176,23): warning C4018: '<': signed/unsigned mismatch
+  peszudovirus.vcxproj -> F:\VS Projektek\peszudovirus\Debug\peszudovirus.exe
